@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import { Cormorant_Garamond, Jost } from 'next/font/google';
 import { Providers } from '@/components/providers';
 import { LoadingScreen } from '@/components/loading-screen';
@@ -39,9 +39,6 @@ export const metadata: Metadata = {
     siteName: 'QU[D]SON COLLECTION',
   },
   twitter: { card: 'summary_large_image' },
-};
-
-export const viewport: Viewport = {
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: '#FAF8F3' },
     { media: '(prefers-color-scheme: dark)', color: '#0B0B0C' },
